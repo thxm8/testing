@@ -1,0 +1,77 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    background-color: #F1FAEE;
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+    #hero-section {
+    background-image: url('images/torshov.jpg');
+    background-size: cover;
+    height: 300px;
+    padding-top: 100px;
+}
+/* I commented out I think the problem is here.
+#hero-lines {
+    display: inline-flex;
+    flex-direction: column;
+}
+*/
+
+h1 {
+   
+    background-color: #457B9D;
+    padding: 10px 10px;
+    border-radius: 15px;
+    color: white;
+    
+    }
+h2 {
+    
+    background-color: #1D3557;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+    
+    
+}
+
+
+
+
+#activity-section {
+    margin-top: 50px;
+    
+}
+
+#activity-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-style {
+    
+}
+
+.info-head {
+    color: #1D3557;
+}
+
+.info-sub {
+    color: #457B9D;
+}
